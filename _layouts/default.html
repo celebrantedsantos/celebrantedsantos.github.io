@@ -10,23 +10,20 @@
 
 <body class="is-preload">
 
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6VDTV"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC6VDTV"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Wrapper -->
+    {{ content }}
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+    <!-- Footer -->
+    {% include footer.html %}
 
-		{{ content }}
-
-		<!-- Footer -->
-		{% include footer.html %}
-
-	</div>
-
-	<!-- Scripts -->	
-	{% include scripts.html %}
+    <!-- Scripts -->
+    {% include scripts.html %}
 
 </body>
 </html>
