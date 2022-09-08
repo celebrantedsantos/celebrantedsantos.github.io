@@ -1,7 +1,7 @@
 
 # Site Settings
 title: Terapia Inspire
-url: 'https://terapiainspire.com.br/'
+url: 'https://celebrandsantos.github.io/'
 logo: "logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Cuido da sua saúde emocional e espiritual 
@@ -16,10 +16,6 @@ instagram: terapia_inspire
 # Tracker
 analytics: G-HCHGR8VDSX
 
-  chain_folder:
-    allowed_files:
-      - "assets"
-      
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
