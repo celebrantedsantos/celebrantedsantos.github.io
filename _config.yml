@@ -3,18 +3,15 @@
 title: Terapia Inspire
 url: 'https://celebrandsantos.github.io/'
 logo: "logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Cuido da sua saúde emocional e espiritual 
-  <br><br>
-  Conflitos nos Relacionamentos, Ansiedade, Depressão e Procrastinação
-  Sessões on-line ou presencial 👇🏻
-  <br><br>
-  <a href="https://beacons.ai/aconsultoriainspire">beacons.ai/aconsultoriainspire</a> 
+description:  
   
 instagram: terapia_inspire
 
+plugins:
+  - jekyll-seo-tag
+
 # Tracker
-analytics: G-HCHGR8VDSX
+analytics: G-NWBC1EDVHS
 
 sass:
   sass_dir: _sass
