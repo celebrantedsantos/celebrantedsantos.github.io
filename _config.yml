@@ -2,9 +2,16 @@
 # Site Settings
 title: Celebrante Diego Santos
 url: 'celebrandsantos.com.br'
-logo: "logo.jpg?raw=true" # your photo (or logo) here
+logo: "/images/logo.jpg" # your photo (or logo) here
 description:  Celebrante de Casamentos, Bodas e Aniversários.
-  
+tagline:  Celebrante de Casamentos, Bodas e Aniversários.
+
+google_site_verification: # https://search.google.com/search-console?resource_id=sc-domain%3Acelebrantedsantos.com.br
+
+author:
+  name: Celebrante Diego Santos
+  url: https://celebrandsantos.com.br/
+
 instagram: diegosantoscelebrante
 
 plugins:
