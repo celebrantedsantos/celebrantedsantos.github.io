@@ -1,10 +1,10 @@
 
 # Site Settings
 title: Celebrante Diego Santos
-url: 'celebrandsantos.com.br'
+url: 'celebrantedsantos.com.br'
 logo: "/images/logo.jpg" # your photo (or logo) here
-description:  Celebrante de Casamentos, Bodas e Aniversários.
-tagline:  Celebrante de Casamentos, Bodas e Aniversários.
+description:  Celebro o amor incondicional dos noivos e torno o grande dia da celebração deles ainda mais inesquecível e cheia de emoção!
+tagline:  Celebrante de Casamentos, Bodas e Aniversários. Rua 7 de setembro, 666 - Centro ARARAS SP
 
 google_site_verification: # https://search.google.com/search-console?resource_id=sc-domain%3Acelebrantedsantos.com.br
 
@@ -20,8 +20,6 @@ plugins:
   - jekyll-seo-tag
 
 # Tracker
-analytics : G-NWBC1EDVHS
-
 analytics : G-NWBC1EDVHS
 
 
