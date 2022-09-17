@@ -4,6 +4,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function sendMail() {
+	//window.open("https://www.github.com/" + document.getElementById("name").value, "_blank");
+	var name = document.getElementById("name").value;
+	var email = document.getElementById("email").value;
+	var messagem = document.getElementById("message").value;
+
+	Email.send({
+        Host: 'smtp.elasticemail.com',
+        Username: '',
+        Password: '',
+        To: '',
+        From: '',
+        Subject: 'Sending Email using javascript',
+        Body: 'Well that was easy!!'
+	}).then(
+		message => alert(message)
+	  );
+}
+
 (function($) {
 
 	var	$window = $(window),
@@ -34,13 +53,16 @@
 
 		// Hack: Activate non-input submits.
 			$('form').on('click', '.submit', function(event) {
+				//window.open("https://www.github.com", "_blank");
+				//window.open("https://www.github.com/" + document.getElementById("name").value, "_blank");
+				sendMail();
 
 				// Stop propagation, default.
-					event.stopPropagation();
-					event.preventDefault();
+				//	event.stopPropagation();
+				//	event.preventDefault();
 
 				// Submit form.
-					$(this).parents('form').submit();
+				//	$(this).parents('form').submit();
 
 			});
 
@@ -188,3 +210,4 @@
 			});
 
 })(jQuery);
+
