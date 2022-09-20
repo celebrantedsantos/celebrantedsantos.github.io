@@ -2,17 +2,21 @@
 # Site Settings
 title: Celebrante Diego Santos
 url: 'celebrantedsantos.com.br'
-logo: "/images/logo.png" # your photo (or logo) here
-description:  Celebro o amor incondicional dos noivos e torno o grande dia da celebração deles ainda mais inesquecível e cheia de emoção!
-tagline:  Celebrante de Casamentos, Bodas e Aniversários. Rua 7 de setembro, 666 - Centro ARARAS SP
+logo: "https://celebrantedsantos.com.br/images/logo.png" # your photo (or logo) here
+description:  Celebro o amor incondicional dos noivos e torno o grande dia da celebração deles ainda mais inesquecível e cheia de emoção! . Rua 7 de setembro, 666 - Centro ARARAS SP
+tagline:  Celebrante de Casamentos, Bodas e Aniversários em Araras SP e Região
 
 google_site_verification: # https://search.google.com/search-console?resource_id=sc-domain%3Acelebrantedsantos.com.br
+
+
+#Colo Padrao
+color: 55A3BA #55A3BA
 
 locale: pt_BR #en_US
 
 author:
   name: Celebrante Diego Santos
-  url: https://celebrandsantos.com.br/
+  url: https://celebrantedsantos.com.br/
 
 instagram: diegosantoscelebrante
 
