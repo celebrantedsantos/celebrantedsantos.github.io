@@ -5,7 +5,7 @@ empresa:
      title: Celebrante Diego Santos
      nome: Terapia Inspire
      slogan: Cuide da sua saúde emocional e espiritual.
-     endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP  &bull;
+     endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP - BRASIL
      enderecolink: https://g.page/r/CSKVjwmt_FcfEBA
      wazelink: https://www.waze.com/en/live-map/directions/br/sp/terapia-inspire?place=ChIJkc-Co0h3yJQRIpWPCa38Vx8
      telefone: (19) 97156-4256
@@ -13,6 +13,33 @@ empresa:
      telegramlink: https://t.me/terapiainspire
      email: terapiainspire@gmail.com
      emaillink : "mailto:terapiainspire@gmail.com"
+     whatsapp : https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
+     instagram : https://www.instagram.com/diegosantoscelebrante/
+     imagem: images/diego.jpg
+     portfolio : #
      detalhes: |
               Sabe aquela sensação de estar perdido? Ou aquela busca interna por respostas e entendimentos de várias questões complexas da sua vida? Eu tenho a chave para suas inquietações. Quem passa pelo processo da Terapia Inspire, realiza mudanças e transformações significativas em sua vida alcançando maior clareza da sua história pessoal e ganha saúde e bem-estar. \
               Você já se sentiu frustrado por não conseguir alcançar seus objetivos? Em muitos casos, o estresse ocorre em virtude da falta de organização. Trabalhar com níveis reduzidos de estresse é fundamental para desenvolver e alcançar seus objetivos, para que você consiga encarar as suas tarefas e desafios com mais clareza e tranquilidade.
+
+Celebrante: 
+     detalhes: |
+          Celebro o amor incondicional dos noivos e torno o grande dia da celebração deles ainda mais inesquecível e cheia de emoção! 
+          A cerimônia é um dos momentos mais importantes e emocionantes no casamento. Por isso, é preciso ter alegria, empatia, calma e sensibilidade. Nesse sentido, traduzo o amor que os noivos sentem um pelo outro através da construção de uma celebração personalizada, baseada no estilo, desejos, histórias, qualidades, valores e características do casal e da família.
+          Palavras que brotam da inspiração divina tocam o interior das pessoas e as emocionam, pois falam de coração para coração.
+          Todos os convidados sentem-se acolhidos e envolvidos na celebração uma vez que Deus se faz presente e se eterniza na felicidade dos noivos.
+          Celebrante: 
+
+Cerimonia: 
+     title: Cerimônia de Casamento
+     detalhes: |
+          A cerimônia será personalizada, elaborada de acordo com o desejo do casal, acrescida de simbolismos, tradições familiares, leituras e homenagens que criarão uma experiência profunda de oração e emocionante para os noivos e seus familiares e amigos.
+
+Briefing: 
+     title: BRIEFING
+     detalhes: |
+          Para traduzir em palavras a história e a personalidade dos noivos, bem como os desejos deles para a celebração, me encontro pessoalmente com eles para alinharmos o roteiro da celebração. Cada detalhe é essencial para elaborar uma cerimônia que seja marcante e inesquecível.
+
+Ritual: 
+     title: Ritual
+     detalhes: |
+          Com o trabalho de produção de conteúdo e de roteiro profissional, escrevo o rito e o discurso, trazendo o amor, a história, as lembranças e as crenças fortalecedoras que constituem a vida matrimonial. Através da espiritualidade, a cerimônia é o momento de expressar todas as emoções incríveis que os noivos escolheram viver e compartilhar um com o outro.

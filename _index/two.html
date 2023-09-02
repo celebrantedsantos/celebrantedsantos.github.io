@@ -1,0 +1,14 @@
+<!-- Two -->
+{% assign casamentos = site.data.casamentos.casamentos %} 
+<section id="two">
+    <h2>Cerimônias Realidadas</h2>
+    <div class="row">
+        {% for casamento in casamentos %}
+        <article class="col-6 col-12-xsmall work-item">
+            <a href="{{ casamento.imagem }}" class="image fit thumb"><img src="{{ casamento.imagem }}" alt="" /></a>
+            <h3>{{ casamento.title }}</h3>
+            <p>{{ casamento.subtitle }}</p>
+        </article>
+        {% endfor %}     
+    </div> 
+</section>

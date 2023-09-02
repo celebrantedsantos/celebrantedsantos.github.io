@@ -1,0 +1,10 @@
+#
+# Casamentos
+#
+casamentos:          
+  - title:  O casamento Jéssica e ao Carlos  
+    subtitle:  pela oportunidade de fazer parte desse momento tão especial.
+    imagem: images/casamento01.jpg
+  - title:   O casamento Gustavo Viana e Stefanie Oliveira
+    subtitle: pela oportunidade de fazer parte desse momento tão especial.
+    imagem: images/casamento02.jpg

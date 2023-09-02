@@ -1,0 +1,29 @@
+<!-- One -->
+{% assign empresa = site.data.data.empresa %}
+{% assign celebrante = site.data.data.Celebrante %}
+{% assign cerimonia = site.data.data.Cerimonia %}
+{% assign Briefing = site.data.data.Briefing %}
+{% assign Ritual = site.data.data.Ritual %}
+<section id="one">
+    <header class="major">
+        <h2>{{ empresa.title }}</h2>
+    </header>
+    <p>{{ celebrante.detalhes }}</p>   
+</section>
+<section >   
+    <header class="major">
+        <h2>{{ cerimonia.title }}</h2>
+    </header>
+    <p>{{ cerimonia.detalhes }}</p>
+    <header class="major">
+        <h2>{{ Briefing.title }}</h2>
+    </header>
+    <p>{{ Briefing.detalhes }}</p>
+    <header class="major">
+        <h2>{{ Ritual.title }}</h2>
+    </header>
+    <p>{{ Ritual.detalhes }}</p>
+    <ul class="actions">
+        <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li>
+    </ul>
+</section>
