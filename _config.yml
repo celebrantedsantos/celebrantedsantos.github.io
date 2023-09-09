@@ -1,4 +1,3 @@
-
 # Site Settings
 title: Celebrante Diego Santos
 url: 'celebrantedsantos.com.br'
@@ -13,12 +12,20 @@ google_site_verification: # https://search.google.com/search-console?resource_id
 color: 55A3BA #55A3BA
 
 locale: pt_BR #en_US
+canonical_url: 'https://celebrantedsantos.com.br/'  
+timezone:  America/Sao_Paulo
+
 
 author:
   name: Celebrante Diego Santos
   url: https://celebrantedsantos.com.br/
 
 instagram: diegosantoscelebrante
+social:
+  name: diegosantoscelebrante
+  links:
+    - https://instagram.com/diegosantoscelebrante/ 
+
 
 plugins:
   - jekyll-seo-tag
