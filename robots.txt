@@ -12,5 +12,5 @@ Disallow: /pro-gallery-webapp/v1/galleries/*
 #User-agent: PetalBot
 # Disallow: /
 
-Sitemap: http://celebrantedsantos.com.br/sitemap.xml
+Sitemap: https://celebrantedsantos.com.br/sitemap.xml
  
