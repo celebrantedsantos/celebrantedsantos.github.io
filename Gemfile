@@ -8,5 +8,3 @@ gem 'github-pages'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webrick", "~> 1.8.1"
 gem 'jekyll-seo-tag'
-
-

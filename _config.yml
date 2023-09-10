@@ -26,7 +26,8 @@ plugins:
   - jekyll-sitemap
 
 # Tracker
-analytics : G-NWBC1EDVHS
+webmaster_verifications:
+  google: G-NWBC1EDVHS
 
 sass:
   sass_dir: _sass
