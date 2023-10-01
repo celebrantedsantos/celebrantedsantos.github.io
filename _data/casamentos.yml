@@ -4,23 +4,24 @@
 casamentos:          
   - title:  
     subtitle:  
-    imagem: images/casamentos/casamento01.jpg
+    imagem: images/casamentos/casamento01.webp
 
   - title:    
     subtitle:  
-    imagem: images/casamentos/casamento02.jpg
+    imagem: images/casamentos/casamento02.webp
     
   - title:   
     subtitle:  
-    imagem: images/casamentos/casamento03a.jpg
+    imagem: images/casamentos/casamento03a.webp
     
   - title:  
     subtitle: 
-    imagem: images/casamentos/casamento03b.jpg
+    imagem: images/casamentos/casamento03b.webp
 
   - title:  
     subtitle: 
     imagem: images/casamentos/casamento04.jpg
+    
   - title:  
     subtitle: 
     imagem: images/casamentos/casamento04b.jpg
