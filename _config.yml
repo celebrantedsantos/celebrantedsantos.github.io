@@ -16,7 +16,6 @@ author:
   url: https://celebrantedsantos.com.br
 
 instagram: diegosantoscelebrante
-
 social:
   name: diegosantoscelebrante
   links:
@@ -32,6 +31,7 @@ webmaster_verifications:
 
 
 analytics : G-NWBC1EDVHS
+
 
 sass:
   sass_dir: _sass
