@@ -5,31 +5,24 @@ casamentos:
   - title:  
     subtitle:  
     imagem: images/casamentos/casamento01.webp
-
   - title:    
     subtitle:  
-    imagem: images/casamentos/casamento02.webp
-    
+    imagem: images/casamentos/casamento02.webp  
   - title:   
     subtitle:  
-    imagem: images/casamentos/casamento03a.jpg
-    
+    imagem: images/casamentos/casamento03a.jpg    
   - title:  
     subtitle: 
     imagem: images/casamentos/casamento03b.jpg
-
   - title:  
     subtitle: 
     imagem: images/casamentos/casamento04.webp
-
   - title:  
     subtitle: 
     imagem: images/casamentos/casamento04b.webp
-
-      - title:  
+  - title:  
     subtitle: 
     imagem: images/casamentos/casamento05.jpg
-
   - title:  
     subtitle: 
     imagem: images/casamentos/casamento05b.jpg
