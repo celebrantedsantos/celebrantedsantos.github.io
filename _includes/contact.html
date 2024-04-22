@@ -33,21 +33,29 @@
         <div class="col-4 col-12-small">
             <ul class="labeled-icons">
                 <li>
-                    <h3 class="icon solid fa-home"><span class="label">Endereço</span></h3>
-                    {{ empresa.endereco }}<br /> 
+                    <a href="{{ empresa.enderecolink }}">
+                        <h3 class="icon solid fa-location-dot"><span class="label">Endereço</span></h3>
+                        {{ empresa.endereco }}
+                    </a>
                 </li>
                 <li>
-                    <h3 class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></h3>
-                    <a href="mail:{{ empresa.whatsapp }}">{{ empresa.telefone }}</a>
-                </li>
-                <li>
-                    <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                    <a href="mail:{{ empresa.email }}">{{ empresa.email }}</a>
-                </li>
-                <li>
-                    <h3 class="icon brands fa-instagram"><span class="label">Instagram</span></h3>
-                    <a href="{{ empresa.instagram }}">/{{empresa.user}}</a>
+                    <a href="{{ empresa.whatsapp }}"> 
+                        <h3 class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></h3>
+                        {{ empresa.telefone }}
+                    </a>
                 </li> 
+                <li>
+                    <a href="{{ empresa.instagram }}">
+                        <h3 class="icon brands fa-instagram"><span class="label">Instagram</span></h3>
+                        {{empresa.user}}
+                    </a>
+                </li> 
+                <li>
+                    <a href="mail:{{ empresa.email }}">
+                        <h3 class="icon solid fa-envelope"><span class="label">E-mail</span></h3>
+                        {{ empresa.email }}
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
