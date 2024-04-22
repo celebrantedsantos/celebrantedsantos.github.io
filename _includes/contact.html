@@ -2,7 +2,7 @@
 <!-- Three -->
 <section id="three">
     <h2>Agende agora sua conversa</h2>
-    <p>Estamos esperando... Deixe sua mensagem</p>
+    <p>Deixe sua mensagem ou entre em contato.</p>
     <div class="row">
         <div class="col-8 col-12-small">
             <form  action="https://forms.un-static.com/forms/83c1a99d15bbea197ca8dbfc48d1975cd85264a4" method="post">
@@ -37,8 +37,8 @@
                     {{ empresa.endereco }}<br /> 
                 </li>
                 <li>
-                    <h3 class="icon solid fa-mobile-alt"><span class="label">Telefone</span></h3>
-                    {{ empresa.telefone }}
+                    <h3 class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></h3>
+                    <a href="mail:{{ empresa.whatsapp }}">{{ empresa.telefone }}</a>
                 </li>
                 <li>
                     <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
@@ -46,8 +46,8 @@
                 </li>
                 <li>
                     <h3 class="icon brands fa-instagram"><span class="label">Instagram</span></h3>
-                    <a href="{{ empresa.instagram }}">Instagram.com/{{empresa.user}}</a>
-                </li>
+                    <a href="{{ empresa.instagram }}">/{{empresa.user}}</a>
+                </li> 
             </ul>
         </div>
     </div>
