@@ -34,4 +34,5 @@ casamentos:
     imagem: images/casamentos/casamento06b.jpg
   - title:  
     subtitle: 
-    imagem: images/casamentos/casamento06c.jpg
+    video: images/casamentos/casamento06a.mp4
+    capa: images/casamentos/casamento06c.jpg
