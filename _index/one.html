@@ -14,15 +14,15 @@
     <header class="major">
         <h2>{{ cerimonia.title }}</h2>
     </header>
-    <p>{{ cerimonia.detalhes }}</p>
+    <p>{{ cerimonia.detalhes | markdownify }}</p>
     <header class="major">
         <h2>{{ Briefing.title }}</h2>
     </header>
-    <p>{{ Briefing.detalhes }}</p>
+    <p>{{ Briefing.detalhes | markdownify }}</p>
     <header class="major">
         <h2>{{ Ritual.title }}</h2>
     </header>
-    <p>{{ Ritual.detalhes }}</p>
+    <p>{{ Ritual.detalhes | markdownify }}</p>
      <ul class="actions">
         <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li>
     </ul>
