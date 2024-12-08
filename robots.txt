@@ -7,10 +7,10 @@ User-agent: AdsBot-Google
 Disallow: /_api/*
 Disallow: /_partials*
 Disallow: /pro-gallery-webapp/v1/galleries/*
+Disallow: /html5up-hyperspace/*
 
 # Block PetalBot
 #User-agent: PetalBot
 # Disallow: /
 
 Sitemap: https://celebrantedsantos.com.br/sitemap.xml
- 
