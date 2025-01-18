@@ -1,10 +1,12 @@
 {% assign empresa = site.data.data.empresa %}
+{% assign menu = site.data.data.menu %}
 <!-- Header -->
 <header id="header">
     <div class="inner">
         <a href="" class="image avatar"><img src="{{ empresa.imagem }}" alt="Foto do Diego" /></a>
-        <h1>Eu sou <strong>Celebrante de Casamento</strong>.<br /><br />
+        <h1><strong>{{ empresa.nome }}</strong>
+            <br /> 
             {{ empresa.slogan }} <br /></h1>
-        <br /> <a href="#one">Celebrante</a> - <a href="#two"> Casamentos </a> - <a href="#three">Contato</a>
+        <br /> <a href="#one"><i class="fa-solid fa-user"></i> {{ menu.item1 }}</a> - <a href="#two"><i class="fa-solid fa-place-of-worship"></i> {{ menu.item2 }} </a> - <a href="#three"><i class="fa-solid fa-address-book"></i> {{ menu.item3 }}</a>
     </div>
 </header>

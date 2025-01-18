@@ -1,65 +1,40 @@
 {% assign empresa = site.data.data.empresa %}
 <!-- Three -->
 <section id="three">
-    <h2>Agende agora sua conversa</h2>
-    <p>Deixe sua mensagem ou entre em contato.</p>
+    <h2>Agende agora sua conversa agora mesmo</h2>
+    <p>Entre em contato via WhatsApp, instagram, e-mail ou nosso endereço.</p>
     <div class="row">
         <div class="col-8 col-12-small">
-            <form  action="https://forms.un-static.com/forms/83c1a99d15bbea197ca8dbfc48d1975cd85264a4" method="post">
-                <div class="fields">
-                    <div class="field half">
-                        <label for="name">Seu Nome:</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="field half">
-                        <label for="email">E-mail:</label>
-                        <input type="text" name="email" id="email" />
-                    </div>
-                    <div class="field half">
-                        <label for="phone">Celular:</label>
-                        <input type="text" name="celular" id="celular" />
-                    </div>
-                    <div class="field">
-                        <label for="message">Mensagem:</label>
-                        <textarea name="message" id="message" rows="5"></textarea>
-                    </div>
-                    <br />
-                        <ul class="actions">
-                        <li> <button class="button submit" type="submit">Enviar</button></li>
-                        </ul> 
-                </div>                
-            </form>          
-        </div>
-        <div class="col-4 col-12-small">
             <ul class="labeled-icons">
                 <li>
                     <a href="{{ empresa.enderecolink }}">
-                        <h3 class="icon solid fa-location-dot"><span class="label"><i class="fa-solid fa-location-dot"></i>Endereço</span></h3>
+                        <h3><span class="label"><i class="fa-solid fa-location-dot"></i></span></h3>
                         {{ empresa.endereco }}
                     </a>
                 </li>
                 <li>
                     <a href="{{ empresa.whatsapp }}"> 
-                        <h3 class="icon brands fa-whatsapp"><span class="label"><i class="fa fa-whatsapp"></i>Whatsapp</span></h3>
+                        <h3><span class="label"><i class="fa fa-whatsapp"></i></span></h3>
                         {{ empresa.telefone }}
                     </a>
                 </li> 
                 <li>
                     <a href="{{ empresa.instagram }}">
-                        <h3 class="icon brands fa-instagram"><span class="label"><i class="fa fa-instagram alt"></i>Instagram</span></h3>
+                        <h3><span class="label"><i class="fa fa-instagram alt"></i></span></h3>
                         {{empresa.user}}
                     </a>
                 </li> 
                 <li>
                     <a href="{{ empresa.emaillink }}">
-                        <h3 class="icon solid fa-envelope"><span class="label"><i class="fa-solid fa-envelope"></i>E-mail</span></h3>
+                        <h3><span class="label"><i class="fa-solid fa-envelope"></i></span></h3>
                         {{ empresa.email }}
                     </a>
                 </li>
                 <li>
-                <a href="" class="image avatar"><img src="{{ empresa.logonova }}" alt="Celebrante" /></a>
-                </li>
             </ul>
+        </div>
+        <div class="col-4 col-12-small">
+            <a href="" class="image avatar"><img src="{{ empresa.logonova }}" alt="Celebrante" /></a>
         </div>
     </div>
 </section>
