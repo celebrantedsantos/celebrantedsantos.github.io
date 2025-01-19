@@ -2,28 +2,33 @@
 {% assign empresa = site.data.data.empresa %}
 {% assign celebrante = site.data.data.Celebrante %}
 {% assign cerimonia = site.data.data.Cerimonia %}
-{% assign Briefing = site.data.data.Briefing %}
+{% assign Formacao = site.data.data.Formacao %}
 {% assign Ritual = site.data.data.Ritual %}
 <section id="celebrante">
     <header class="major">
-        <h2>{{ empresa.title }}</h2>
+        <h2><i class="fa-solid fa-user"></i> {{ empresa.title }}</h2>
     </header>
     <p>{{ celebrante.detalhes | markdownify }}</p>   
 </section>
 <section >   
     <header class="major">
+        <h2>{{ Formacao.title }}</h2>
+    </header>
+    <p>{{ Formacao.detalhes | markdownify }}</p>
+
+    <header class="major">
         <h2>{{ cerimonia.title }}</h2>
     </header>
     <p>{{ cerimonia.detalhes | markdownify }}</p>
-    <header class="major">
-        <h2>{{ Briefing.title }}</h2>
-    </header>
-    <p>{{ Briefing.detalhes | markdownify }}</p>
+
+    <!--
     <header class="major">
         <h2>{{ Ritual.title }}</h2>
     </header>
     <p>{{ Ritual.detalhes | markdownify }}</p>
-     <ul class="actions">
+    -->
+
+    <ul class="actions">
         <!-- <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li> -->
         <li><a href="{{ empresa.whatsapp }}" class="button"><i class="fa fa-whatsapp"></i> Agende Agora </a></li> 
     </ul>
