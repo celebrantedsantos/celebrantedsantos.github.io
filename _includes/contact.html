@@ -1,8 +1,9 @@
 {% assign empresa = site.data.data.empresa %}
+{% assign contato = site.data.data.contato %}
 <!-- Three -->
-<section id="three">
-    <h2>Agende agora sua conversa agora mesmo</h2>
-    <p>Entre em contato via WhatsApp, instagram, e-mail ou nosso endereço.</p>
+<section id="contatos">
+    <h2>{{ contato.title }}</h2>
+    <p>{{ empresa.subtitle }}</p>
     <div class="row">
         <div class="col-8 col-12-small">
             <ul class="labeled-icons">

@@ -4,7 +4,7 @@
 {% assign cerimonia = site.data.data.Cerimonia %}
 {% assign Briefing = site.data.data.Briefing %}
 {% assign Ritual = site.data.data.Ritual %}
-<section id="one">
+<section id="celebrante">
     <header class="major">
         <h2>{{ empresa.title }}</h2>
     </header>
@@ -24,6 +24,7 @@
     </header>
     <p>{{ Ritual.detalhes | markdownify }}</p>
      <ul class="actions">
-        <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li>
+        <!-- <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li> -->
+        <li><a href="{{ empresa.whatsapp }}" class="button"><i class="fa fa-whatsapp"></i> Agende Agora </a></li> 
     </ul>
 </section>
