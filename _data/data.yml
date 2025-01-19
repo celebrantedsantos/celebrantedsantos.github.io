@@ -7,6 +7,9 @@ empresa:
      celebrante: Diego Santos
      slogan: Celebre o seu casamento com a benção de Deus, unindo fé e amor! 
      endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP - BRASIL
+     botaoAgenda: Agende agora 
+     languageVersion: Version in English
+     languageurl: ../en
      enderecolink: https://g.page/r/CSKVjwmt_FcfEBA
      wazelink: https://www.waze.com/en/live-map/directions/br/sp/terapia-inspire?place=ChIJkc-Co0h3yJQRIpWPCa38Vx8
      telefone: (19) 97156-4256
@@ -17,14 +20,19 @@ empresa:
      whatsapp : https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
      instagram : https://www.instagram.com/diegosantoscelebrante/     
      user : diegosantoscelebrante
-     imagem: images/diego.webp
+     imagem: ../images/diego.webp
      portfolio : https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
-     logo: images/logo.png
-     logonova: images/logonova.png
+     logo: ../images/logo.png
+     logonova: ../images/logonova.png 
      detalhes: |
                Sabe aquela sensação de estar perdido? Ou aquela busca interna por respostas e entendimentos de várias questões complexas da sua vida? Eu tenho a chave para suas inquietações. Quem passa pelo processo da Terapia Inspire, realiza mudanças e transformações significativas em sua vida alcançando maior clareza da sua história pessoal e ganha saúde e bem-estar. \
                
                Você já se sentiu frustrado por não conseguir alcançar seus objetivos? Em muitos casos, o estresse ocorre em virtude da falta de organização. Trabalhar com níveis reduzidos de estresse é fundamental para desenvolver e alcançar seus objetivos, para que você consiga encarar as suas tarefas e desafios com mais clareza e tranquilidade.
+
+footer:  
+     title:  'Feito pelo ❤ para você!'
+     subtitle:  'FabioHCNobre'
+     link:  https://fabiohcnobre.dev.br
 
 menu:  
      item1: Celebrante

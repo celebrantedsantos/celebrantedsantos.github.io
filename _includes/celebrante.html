@@ -1,9 +1,9 @@
 <!-- One -->
-{% assign empresa = site.data.data.empresa %}
-{% assign celebrante = site.data.data.Celebrante %}
-{% assign cerimonia = site.data.data.Cerimonia %}
-{% assign Formacao = site.data.data.Formacao %}
-{% assign Ritual = site.data.data.Ritual %}
+{% assign empresa = data.empresa %}
+{% assign celebrante = data.Celebrante %}
+{% assign cerimonia = data.Cerimonia %}
+{% assign Formacao = data.Formacao %}
+{% assign Ritual = data.Ritual %}
 <section id="celebrante">
     <header class="major">
         <h2><i class="fa-solid fa-user"></i> {{ empresa.title }}</h2>
@@ -30,6 +30,6 @@
 
     <ul class="actions">
         <!-- <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li> -->
-        <li><a href="{{ empresa.whatsapp }}" class="button"><i class="fa fa-whatsapp"></i> Agende Agora </a></li> 
+        <li><a href="{{ empresa.whatsapp }}" class="button"> {{ empresa.botaoAgenda }} <i class="fa fa-whatsapp"></i> </a></li> 
     </ul>
 </section>

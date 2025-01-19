@@ -1,5 +1,5 @@
 <!-- Footer -->
-{% assign empresa = site.data.data.empresa %}
+{% assign empresa = data.empresa %}
 <footer id="footer">
     <div class="inner">       
         <ul class="icons">
@@ -10,7 +10,8 @@
             <li><a href="{{ empresa.emaillink }}"><i class="fa solid fa-envelope"></i><span class="label"> Email </span></a></li>
         </ul>
         <ul class="copyright">
-            <i class="fas fa-brands fa-creative-commons"></i>  Feito com <i class="fas fa-heart"></i> pelo <a href="https://github.com/fabiohcnobre" target="_blank" rel="nofollow">FabioHCNobre</a></a>.
+            <a href="{{ empresa.languageurl }}">{{ empresa.languageVersion }} </a>
+            <i class="fas fa-brands fa-creative-commons"></i>{{ data.footer.title }}<a href="{{ data.footer.link }}" target="_blank" rel="nofollow">{{ data.footer.subtitle }}</a>
         </ul>
     </div>
 </footer>

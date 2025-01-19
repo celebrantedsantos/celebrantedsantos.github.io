@@ -1,0 +1,74 @@
+#
+# Informações do site
+#
+empresa:  
+     title: Celebrant Diego Santos
+     nome: Celebrações Inspire
+     celebrante: Diego Santos
+     slogan: Celebrate your wedding with God's blessing, uniting faith and love!
+     botaoAgenda: Book now     
+     languageVersion: Site em português
+     languageurl: ../
+     endereco: Rua 7 de setembro, 666 - Centro &bull; Araras, SP - BRASIL
+     enderecolink: https://g.page/r/CSKVjwmt_FcfEBA
+     wazelink: https://www.waze.com/en/live-map/directions/br/sp/terapia-inspire?place=ChIJkc-Co0h3yJQRIpWPCa38Vx8
+     telefone: (19) 97156-4256
+     telefonelink: https://api.whatsapp.com/send/?phone=5519971564256&text=Vimdosite&app_absent=0
+     telegramlink: https://t.me/terapiainspire
+     email: terapiainspire@gmail.com
+     emaillink : "mailto:terapiainspire@gmail.com"
+     whatsapp : https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
+     instagram : https://www.instagram.com/diegosantoscelebrante/     
+     user : diegosantoscelebrante
+     imagem: ../images/diego.webp
+     portfolio : https://api.whatsapp.com/send/?phone=5519971564256&text&app_absent=0
+     logo: ../images/logo.png
+     logonova: ../images/logonova.png
+     detalhes: |
+               Do you know that feeling of being lost? Or that internal search for answers and understanding of several complex issues in your life? I have the key to your concerns. Those who go through the Inspire Therapy process make significant changes and transformations in their lives, achieving greater clarity about their personal history and gaining health and well-being. \
+               
+               Have you ever felt frustrated because you can't achieve your goals? In many cases, stress occurs due to a lack of organization. Working with reduced stress levels is essential to developing and achieving your goals, so that you can face your tasks and challenges with greater clarity and tranquility.
+
+footer:  
+     title:  'Made with ❤ by '
+     subtitle:  'FabioHCNobre'
+     link:  https://fabiohcnobre.dev.br
+
+menu:  
+     item1: Celebrant
+     item2: Weddings
+     item3: Contact
+
+
+Celebrante: 
+     detalhes: |
+          Diego Santos, in every wedding celebration, leaves his mark as a celebrant who not only connects words, but also connects hearts and makes the presence of God felt. His commitment goes beyond professionalism; it is a true life mission. If you want a celebration that unites faith, love and emotion in every detail, Diego Santos is the celebrant who will make your big day unforgettable and blessed.
+          
+          For Diego Santos, a wedding celebration is not just a ritual; it is a manifestation of the divine in the love between the bride and groom. Every detail is carefully thought out to reflect the personalities, stories and virtues of the couple. With joy, empathy and deep sensitivity, Diego Santos creates a celebration where God is present, touching hearts and uniting souls.
+
+Formacao: 
+     title: AREAS OF ACTIVITY AND TRAINING
+     detalhes: |
+               He works in the city of Araras-SP and the metropolitan region of Campinas and Ribeirão Preto, and the entire coast of São Paulo. Diego Santos is a psychotherapist and has a rich background in Journalism (ISCA Faculdades), Philosophy and Theology (PUC-Campinas), in addition to being a Psychology student. He found in his life purpose the mission of transforming wedding ceremonies into unforgettable spiritual experiences. For 15 years, he has dedicated his heart and faith to celebrating unconditional love, creating moments that remain engraved in the memory and soul. With a postgraduate degree in Systemic Therapy for Couples and Family, Psychoanalysis and Coaching and Leadership, he has accumulated vast experience in celebrating weddings, as well as in pre- and post-marital counseling.
+
+               On this page, you will find a lot of information about the celebration, but the celebrant Diego Santos makes a point of talking to you personally, through a video call, without obligation, to answer all your questions and learn the details of your story. Contact us to request a quote and schedule your meeting.
+
+Cerimonia: 
+     title: SERVICES OFFERED
+     detalhes: |
+               Celebrant Diego Santos celebrates weddings and wedding ceremonies. Before the big day, so that the ceremony faithfully reflects the love of the bride and groom, he holds at least two meetings with the couple to learn about the history of their union, working together to create a ceremony that will forever be marked in their lives and in the lives of their guests. Transforming all of this into words that not only speak, but also touch the heart.
+
+               Words inspired by faith spring from the depths of his heart, echoing in the emotions of each person present. And so, amid smiles, tears and prayers, celebrant Diego Santos leads the bride and groom and their guests on an experience that transcends time, where the Sacred manifests itself in every gesture, in every look.
+
+#Ritual: 
+#     title: Ritual
+#     detalhes: |
+#          Com o trabalho de produção de conteúdo e de roteiro profissional, escrevo o rito e o discurso, trazendo o amor, a história, as lembranças e as crenças fortalecedoras que constituem a vida matrimonial. Através da espiritualidade, a cerimônia é o momento de expressar todas as emoções incríveis que os noivos escolheram viver e compartilhar um com o outro.
+
+Casamentos:
+     title: Ceremonies and Weddings Performed
+     subtitle: Discover some of the ceremonies and weddings performed by Diego Santos
+
+contato: 
+     title: Contact - Schedule your conversation now
+     subtitle:  Contact us via WhatsApp, Instagram, email or our address.
