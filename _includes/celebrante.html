@@ -1,4 +1,3 @@
-<!-- One -->
 {% assign empresa = data.empresa %}
 {% assign celebrante = data.Celebrante %}
 {% assign cerimonia = data.Cerimonia %}
@@ -15,19 +14,16 @@
         <h2>{{ Formacao.title }}</h2>
     </header>
     <p>{{ Formacao.detalhes | markdownify }}</p>
-
     <header class="major">
         <h2>{{ cerimonia.title }}</h2>
     </header>
     <p>{{ cerimonia.detalhes | markdownify }}</p>
-
     <!--
     <header class="major">
         <h2>{{ Ritual.title }}</h2>
     </header>
     <p>{{ Ritual.detalhes | markdownify }}</p>
     -->
-
     <ul class="actions">
         <!-- <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li> -->
         <li><a href="{{ empresa.whatsapp }}" class="button"> {{ empresa.botaoAgenda }} <i class="fa fa-whatsapp"></i> </a></li> 

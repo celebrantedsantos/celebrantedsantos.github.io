@@ -3,22 +3,12 @@
 	Saiba mais em github.com/fabiohcnobre!
 -->
 <!DOCTYPE html>
-{% if page.language == "en" %}
-{% assign data = site.data.dataen %}
-<html lang="en"  data-bs-theme="dark"> 
-{% else %}
-{% assign data = site.data.data %}
-<html lang="pt-BR"  data-bs-theme="light"> 
-{% endif %} 
+{% if page.language == "en" %}{% assign data = site.data.dataen %}<html lang="en"  data-bs-theme="dark"> {% else %}{% assign data = site.data.data %}<html lang="pt-BR"  data-bs-theme="light">{% endif %} 
 {% include head.html %}
 <body class="is-preload">
     {% include header.html %}
-
     {{ content }}
-
     {% include footer.html %}
-
     {% include scripts.html %}
-
 </body>
 </html>
