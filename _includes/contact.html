@@ -1,40 +1,37 @@
-{% assign empresa = data.empresa %}
-{% assign contato = data.contato %}
 <section id="contatos">
-    <h2><i class="fa-solid fa-address-book"></i> {{ contato.title }}</h2>
-    <p>{{ contato.subtitle }}</p>
+    <h2><i class="fa-solid fa-address-book"></i> {{ data.contato.title }}</h2>
+    <p>{{ data.contato.subtitle }}</p>
     <div class="row">
         <div class="col-8 col-12-small">
             <ul class="labeled-icons">
                 <li>
                     <a href="{{ empresa.enderecolink }}">
                         <h3><span class="label"><i class="fa-solid fa-location-dot"></i></span></h3>
-                        {{ empresa.endereco }}
+                        {{ data.empresa.endereco }}
                     </a>
                 </li>
                 <li>
                     <a href="{{ empresa.whatsapp }}"> 
                         <h3><span class="label"><i class="fa fa-whatsapp"></i></span></h3>
-                        {{ empresa.telefone }}
+                        {{ data.empresa.telefone }}
                     </a>
                 </li> 
                 <li>
                     <a href="{{ empresa.instagram }}">
                         <h3><span class="label"><i class="fa fa-instagram alt"></i></span></h3>
-                        {{empresa.user}}
+                        {{ data.empresa.user}}
                     </a>
                 </li> 
                 <li>
                     <a href="{{ empresa.emaillink }}">
                         <h3><span class="label"><i class="fa-solid fa-envelope"></i></span></h3>
-                        {{ empresa.email }}
+                        {{ data.empresa.email }}
                     </a>
-                </li>
-                <li>
+                </li> 
             </ul>
         </div>
         <div class="col-4 col-12-small">
-            <a href="" class="image avatar"><img src="{{ empresa.logonova }}" alt="Celebrante" /></a>
+            <a href="" class="image avatar"><img src="{{ data.empresa.logonova }}" alt="{{ data.empresa.nome }}" /></a>
         </div>
     </div>
 </section>
