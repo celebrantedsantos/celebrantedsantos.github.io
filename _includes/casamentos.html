@@ -3,14 +3,10 @@
     <p>{{ data.Casamentos.subtitle }}</p>
     <div class="row">
         {% for casamento in site.data.casamentos.casamentos %}<article class="col-6 col-12-xsmall work-item">
-            {% if casamento.imagem  %}
-            <a href="{{ casamento.imagem }}" class="image fit thumb"><img src="{{ casamento.imagem }}" alt="Casamento" /></a>
-            {% endif %}
-            {% if casamento.video  %}
-            <a href="{{ casamento.video }}" class="video fit thumb"><img src="{{ casamento.capa }}" alt="Casamento" /></a>
-            {% endif %}
-            <h3>{{ casamento.title }}</h3>
-            <p>{{ casamento.subtitle }}</p>
+            {% if casamento.imagem  %}<a href="{{ casamento.imagem }}" class="image fit thumb"><img src="{{ casamento.imagem }}" alt="Casamento" /></a>{% endif %}
+            {% if casamento.video  %}<a href="{{ casamento.video }}" class="video fit thumb"><img src="{{ casamento.capa }}" alt="Casamento" /></a>{% endif %}
+            {% if casamento.title  %}<h3>{{ casamento.title }}</h3>{% endif %}
+            {% if casamento.subtitle  %}<p>{{ casamento.subtitle }}</p>{% endif %}
         </article>{% endfor %}     
     </div> 
 </section>
