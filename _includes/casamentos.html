@@ -1,12 +1,8 @@
-<!-- casamentos -->
-{% assign casamentos = site.data.casamentos.casamentos %} 
-{% assign casamento = data.Casamentos %} 
 <section id="casamentos">
-    <h2><i class="fa-solid fa-place-of-worship"></i> {{ casamento.title }} </h2>
-    <p>{{ casamento.subtitle }}</p>
+    <h2><i class="fa-solid fa-place-of-worship"></i> {{ data.Casamentos.title }} </h2>
+    <p>{{ data.Casamentos.subtitle }}</p>
     <div class="row">
-        {% for casamento in casamentos %}
-        <article class="col-6 col-12-xsmall work-item">
+        {% for casamento in site.data.casamentos.casamentos %}<article class="col-6 col-12-xsmall work-item">
             {% if casamento.imagem  %}
             <a href="{{ casamento.imagem }}" class="image fit thumb"><img src="{{ casamento.imagem }}" alt="Casamento" /></a>
             {% endif %}
@@ -15,7 +11,6 @@
             {% endif %}
             <h3>{{ casamento.title }}</h3>
             <p>{{ casamento.subtitle }}</p>
-        </article>
-        {% endfor %}     
+        </article>{% endfor %}     
     </div> 
 </section>

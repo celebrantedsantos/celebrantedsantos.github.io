@@ -1,31 +1,20 @@
-{% assign empresa = data.empresa %}
-{% assign celebrante = data.Celebrante %}
-{% assign cerimonia = data.Cerimonia %}
-{% assign Formacao = data.Formacao %}
-{% assign Ritual = data.Ritual %}
 <section id="celebrante">
     <header class="major">
-        <h2><i class="fa-solid fa-user"></i> {{ empresa.title }}</h2>
+        <h2><i class="fa-solid fa-user"></i> {{  data.empresa.title }}</h2>
     </header>
-    <p>{{ celebrante.detalhes | markdownify }}</p>   
+    <p>{{  data.Celebrante.detalhes | markdownify }}</p>   
 </section>
 <section >   
     <header class="major">
-        <h2>{{ Formacao.title }}</h2>
+        <h2>{{ data.Formacao.title }}</h2>
     </header>
-    <p>{{ Formacao.detalhes | markdownify }}</p>
+    <p>{{ data.Formacao.detalhes | markdownify }}</p>
     <header class="major">
-        <h2>{{ cerimonia.title }}</h2>
+        <h2>{{ data.Cerimonia.title }}</h2>
     </header>
-    <p>{{ cerimonia.detalhes | markdownify }}</p>
-    <!--
-    <header class="major">
-        <h2>{{ Ritual.title }}</h2>
-    </header>
-    <p>{{ Ritual.detalhes | markdownify }}</p>
-    -->
+    <p>{{ data.Cerimonia.detalhes | markdownify }}</p>
     <ul class="actions">
         <!-- <li><a href="{{ empresa.portfolio }}" class="button">Portfólio em Breve</a></li> -->
-        <li><a href="{{ empresa.whatsapp }}" class="button"> {{ empresa.botaoAgenda }} <i class="fa fa-whatsapp"></i> </a></li> 
+        <li><a href="{{ empresa.whatsapp }}" class="button"> {{ data.empresa.botaoAgenda }} <i class="fa fa-whatsapp"></i> </a></li> 
     </ul>
 </section>
