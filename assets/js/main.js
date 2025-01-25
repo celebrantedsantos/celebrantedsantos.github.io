@@ -115,3 +115,23 @@
 			});
 
 })(jQuery);
+
+function toggleTheme(){
+	if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+		document.documentElement.setAttribute('data-bs-theme', 'light')
+	}
+	else {
+		document.documentElement.setAttribute('data-bs-theme', 'dark')
+	}
+	var element = document.querySelector('.fas.fa-solid.fa-moon'); 
+	if(element == null)
+	  element = document.querySelector('.fas.fa-solid.fa-sun');
+	if (element.classList.contains('fa-moon')) {
+		element.classList.remove('fa-moon');
+		element.classList.add('fa-sun');
+	} else {
+		element.classList.remove('fa-sun');
+		element.classList.add('fa-moon');
+	}
+	
+  }
