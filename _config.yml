@@ -5,6 +5,8 @@ logo: "https://celebrantedsantos.com.br/images/diego.webp" # your photo (or logo
 description:  Celebro o amor incondicional dos noivos e torno o grande dia da celebração deles ainda mais inesquecível e cheia de emoção! . Rua 7 de setembro, 666 - Centro ARARAS SP
 tagline:  Celebrante de Casamentos, Bodas e Aniversários em Araras SP e Região
 image: "https://celebrantedsantos.com.br/images/diego.webp" # 
+email: diegoararas@gmail.com
+emaillink : "mailto:diegoararas@gmail.com"
 defaults:
   - scope:
       path: ""
