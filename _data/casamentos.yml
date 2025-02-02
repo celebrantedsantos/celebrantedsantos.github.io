@@ -4,26 +4,26 @@
 casamentos:          
   - title:  
     subtitle:  
-    imagem: ../images/casamentos/casamento01.jpg
+    imagem: ../images/casamentos/Casamento01.jpg
   - title:    
     subtitle:  
-    imagem: ../images/casamentos/casamento02.jpg  
+    imagem: ../images/casamentos/Casamento02.jpg  
   - title:   
     subtitle:  
-    imagem: ../images/casamentos/casamento03.jpg 
+    imagem: ../images/casamentos/Casamento03.jpg 
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento04.jpg
+    imagem: ../images/casamentos/Casamento04.jpg
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento05.jpg 
+    imagem: ../images/casamentos/Casamento05.jpg 
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento06.jpg 
+    imagem: ../images/casamentos/Casamento06.jpg 
   - title:  
     subtitle: 
     video: ../images/casamentos/casamento07.mp4
-    capa: ../images/casamentos/casamento07.jpg
+    capa: ../images/casamentos/Casamento07.jpg
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento08.jpg 
+    imagem: ../images/casamentos/Casamento08.jpg 
