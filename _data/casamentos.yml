@@ -4,44 +4,26 @@
 casamentos:          
   - title:  
     subtitle:  
-    imagem: ../images/casamentos/casamento01.webp
+    imagem: ../images/casamentos/casamento01.jpg
   - title:    
     subtitle:  
-    imagem: ../images/casamentos/casamento02.webp  
+    imagem: ../images/casamentos/casamento02.jpg  
   - title:   
     subtitle:  
-    imagem: ../images/casamentos/casamento03a.jpg    
+    imagem: ../images/casamentos/casamento03.jpg 
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento03b.jpg
+    imagem: ../images/casamentos/casamento04.jpg
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento04.webp
+    imagem: ../images/casamentos/casamento05.jpg 
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento04b.webp
+    imagem: ../images/casamentos/casamento06.jpg 
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento05.jpg
+    video: ../images/casamentos/casamento07.mp4
+    capa: ../images/casamentos/casamento07.jpg
   - title:  
     subtitle: 
-    imagem: ../images/casamentos/casamento05b.jpg
-  - title:  
-    subtitle: 
-    imagem: ../images/casamentos/casamento06a.jpg
-  - title:  
-    subtitle: 
-    imagem: ../images/casamentos/casamento06b.jpg
-  - title:  
-    subtitle: 
-    video: ../images/casamentos/casamento06a.mp4
-    capa: ../images/casamentos/casamento06c.jpg
-  - title:  
-    subtitle: 
-    imagem: ../images/casamentos/casamento08a.jpg
-  - title:  
-    subtitle: 
-    imagem: ../images/casamentos/casamento08b.jpg
-  - title:  
-    subtitle: 
-    imagem: ../images/casamentos/casamento08c.jpg
+    imagem: ../images/casamentos/casamento08.jpg 
