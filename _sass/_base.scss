@@ -2678,7 +2678,7 @@ input[type="button"],
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #006100;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2705,8 +2705,8 @@ input[type="button"],
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.buttonWhatsApp:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
+			background-color: #006100;
+			border-color:  #006100;
 			color: #49bf9d !important;
 		}
 
