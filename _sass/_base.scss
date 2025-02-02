@@ -2871,7 +2871,29 @@ input[type="button"],
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+		} 
+
+		#header .nav {
+			display: flex;
+			justify-content: center;
 		}
+	
+		#header .nav li {
+			border-left: solid 1px rgba(255, 255, 255, 0.25); 
+			line-height: 1em;
+			margin-left: 0.75em;
+			padding-left: 0.75em;
+		}
+
+				#header .nav li:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+	
+				#header .nav li a {
+					color: inherit;
+				}
 
 /* Footer */
 
@@ -3061,12 +3083,11 @@ input[type="button"],
 			width: 100%;
 			z-index: 1; 
 			caption-side: bottom;
-		  }		  
-		 
+		}	 
 		.poptrox-popup .caption:empty {
 			visibility: hidden;
 			display: none;
-		  }
+		}
 
 		.poptrox-popup .nav-next,
 		.poptrox-popup .nav-previous {
@@ -3253,7 +3274,7 @@ input[type="button"],
 
 				#header > .inner {
 					margin-bottom: 0;
-				}
+				} 	
 
 		/* Footer */
 
@@ -3313,7 +3334,7 @@ input[type="button"],
 
 					#header h1 br {
 						display: inline;
-					}
+					} 
 
 		/* Footer */
 
