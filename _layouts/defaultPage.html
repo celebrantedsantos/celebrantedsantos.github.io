@@ -1,0 +1,25 @@
+<!--
+	Feito com <3 pelo FabioHCNobre
+	Saiba mais em github.com/fabiohcnobre!
+-->
+<!DOCTYPE html>
+{% if page.language == "en" %}{% assign data = site.data.dataen %}<html lang="en"  data-bs-theme="dark"> {% else %}{% assign data = site.data.data %}<html lang="pt-BR"  data-bs-theme="light">{% endif %} 
+{% include head.html %}
+<body class="is-preload">
+	<header id="header">
+		<div class="inner">
+			<a href="" class="image avatar"><img src="{{ data.empresa.imagem }}" alt="Foto do Diego" /></a>
+			<h1><strong>{{ data.empresa.nome }}</strong>
+				<br /> <p> {{ data.empresa.slogan }}</p></h1>
+			<br />
+			<ul class="nav">
+				<li><a href="../"><i class="fa-solid fa-house"></i> Home </a></li>
+				<li><a href="/palavras"><i class="fa-solid fa-pencil"></i> Palavras que Inspiram </a></li> 
+			</header>
+		</div>
+	</header>   
+{{ content }}
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>
