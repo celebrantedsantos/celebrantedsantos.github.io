@@ -14,7 +14,7 @@ defaults:
       image:  "https://celebrantedsantos.com.br/images/diego.webp"
 
 #Colo Padrao
-color: FFFFFF #55A3BA
+color: 000000 #55A3BA
 
 locale: pt_BR #en_US 
 timezone:  America/Sao_Paulo
