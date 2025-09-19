@@ -315,11 +315,7 @@ GEM
     minitest (5.25.5)
     net-http (0.6.0)
       uri
-<<<<<<< HEAD
     net-imap (0.5.8)
-=======
-    net-imap (0.5.7)
->>>>>>> 6f480e4980d8be143c06ed5d2dffcb2b2a946906
       date
       net-protocol
     net-pop (0.1.2)
@@ -346,11 +342,7 @@ GEM
       stringio
     public_suffix (5.1.1)
     racc (1.8.1)
-<<<<<<< HEAD
     rack (3.1.14)
-=======
-    rack (3.1.16)
->>>>>>> 6f480e4980d8be143c06ed5d2dffcb2b2a946906
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
